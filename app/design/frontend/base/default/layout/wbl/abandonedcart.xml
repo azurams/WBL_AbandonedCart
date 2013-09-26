@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+    <wbl_abandonedcart_email_order_items>
+        <block type="wbl_abandonedcart/email_order_items" name="items" template="wbl/abandonedcart/email/order/items.phtml">
+            <action method="addItemRender"><type>default</type><block>wbl_abandonedcart/email_order_items_order_default</block><template>wbl/abandonedcart/email/order/items/order/default.phtml</template></action>
+            <action method="addItemRender"><type>grouped</type><block>wbl_abandonedcart/email_order_items_order_grouped</block><template>wbl/abandonedcart/email/order/items/order/default.phtml</template></action>
+        </block>
+        <block type="core/text_list" name="additional.product.info" />
+    </wbl_abandonedcart_email_order_items>
+</layout>

@@ -1,0 +1,48 @@
+;Config settings
+"Enabled","Activé"
+"Sender","Emetteur"
+"Email Template","Gabarit d'Email"
+"Email Template With Coupon","Gabarit d'Email avec bon de réduction"
+"Send email after","Envoyer l'email après"
+"Max number of email to send","Max number of email to send"
+"Create Coupon?","Créer un bon de réduction ?"
+"On email number?","On email number?"
+"Expire on","Expire le"
+"Coupon length","Coupon length"
+"Discount type","Type de Remise"
+"Discount amount","Montant de la remise"
+"Label for coupon","Libellé du bon de réduction"
+"Days","Jours"
+"Hours","Heures"
+"Max","Max",
+"The coupon will be created on the email number","The coupon will be created on the email number"
+"The coupon expiration in days","The coupon expiration in days"
+"Select percentage or fixed discount","Select percentage or fixed discount"
+"Log activated","Logs activés"
+
+;Config values
+"Fixed amount","Montant fixe"
+"Percentage","Pourcentage"
+
+;Dashboard
+"Lifetime Generate Revenue","Lifetime Generate Revenue"
+"Average Orders","Average Orders"
+"Generated","Generated"
+"Generated Revenue","Generated Revenue"
+"Generated Tax","Generated Tax"
+"Generated Shipping","Generated Shipping"
+"Generated Orders","Generated Orders"
+"Generated Conv. Rate","Generated Conv. Rate"
+"Emails","Emails"
+"Emails Sent","Emails Sent"
+"Emails Received","Emails Received"
+"Emails Opened","Emails Opened"
+"Emails Clicked","Emails Clicked"
+"Abandoned Cart Dashboard","Abandoned Cart Dashboard"
+"You may obtain more statistics if enable and configure","You may obtain more statistics if enable and configure"
+"extension","extension"
+
+;Menus
+"Abandoned Cart Dashboard","Abandoned Cart Dashboard"
+"Abandoned Cart Orders","Abandoned Cart Orders"
+"Abandoned Cart","Abandoned Cart"
