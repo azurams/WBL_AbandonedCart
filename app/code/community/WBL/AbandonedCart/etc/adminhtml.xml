@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <wbl_abandonedcart translate="title" module="wbl_abandonedcart">
+                    <title>Abandoned Cart Orders</title>
+                    <sort_order>800</sort_order>
+                    <action>adminhtml/abandonedorder/index</action>
+                </wbl_abandonedcart>
+            </children>
+        </sales>
+        <newsletter>
+            <children>
+                <wbl_emails translate="title" module="wbl_abandonedcart">
+                    <title>Emails Sent</title>
+                    <sort_order>810</sort_order>
+                    <action>adminhtml/abandonedmails/index</action>
+                </wbl_emails>
+            </children>
+        </newsletter>
+        <dashboard>
+            <children>
+                <wbl_abandonedcart translate="title" module="wbl_abandonedcart">
+                    <title>Abandoned Cart Dashboard</title>
+                    <sort_order>800</sort_order>
+                    <action>adminhtml/abandonedorder/dashboard</action>
+                </wbl_abandonedcart>
+            </children>
+        </dashboard>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <wbl_abandonedcart translate="title" module="wbl_abandonedcart">
+                                        <title>WBL Abandoned Cart</title>
+                                    </wbl_abandonedcart>
+                                    <wbl_emails translate="title" module="wbl_abandonedcart">
+                                        <title>WBL Emails</title>
+                                    </wbl_emails>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <translate>
+        <modules>
+            <WBL_AbandonedCart>
+                <files>
+                    <default>WBL_AbandonedCart.csv</default>
+                </files>
+            </WBL_AbandonedCart>
+        </modules>
+    </translate>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <WBL_AbandonedCart>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Reports/>
+            </depends>
+        </WBL_AbandonedCart>
+    </modules>
+</config>
